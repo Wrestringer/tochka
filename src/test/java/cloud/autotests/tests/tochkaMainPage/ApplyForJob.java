@@ -86,7 +86,7 @@ public class ApplyForJob extends TestBase {
         });
 
         step("Click button 'Откликнуться'", () -> {
-            $("button[class=kit-button.kit-button_style_primary.kit-button_size_adaptive.kit-button_backgroundMode_light]");
+            $(byText("Откликнуться")).click();
         });
     }
 }
